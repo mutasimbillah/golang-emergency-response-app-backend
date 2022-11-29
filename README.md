@@ -1,5 +1,5 @@
 
-#Golang Emergency Response App Backend
+# Golang Emergency Response App Backend
 
-Golang project with postgres, gorm, log, migrate, viper, make, docker
+Golang project with postgres, gin, gorm, log, migrate, viper, make, docker
 
