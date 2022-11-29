@@ -1,0 +1,16 @@
+{
+    "files.autoSave": "onFocusChange",
+    "editor.formatOnSave": true,
+    "editor.fontSize": 16,
+    "editor.lineHeight": 30,
+    "workbench.editor.labelFormat": "short",
+    "breadcrumbs.enabled": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "cSpell.words": [
+        "gonic",
+        "sslmode",
+        "zerolog"
+    ],
+    //go
+}
