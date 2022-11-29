@@ -1,5 +1,5 @@
 
-# Golang project stater template with postgres, gorm, log, migrate
+#Golang Emergency Response App Backend
 
-Golang template for future project
+Golang project with postgres, gorm, log, migrate, viper, make, docker
 
