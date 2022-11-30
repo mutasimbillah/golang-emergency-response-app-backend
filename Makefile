@@ -16,10 +16,10 @@ dropDb:
 	docker exec -it postgres15 dropdb er_app
 
 migrateUp:
-	migrate --path db/migration --database "postgres://root:secret@localhost:5432/er_app?sslmode=disable" --verbose up
+	migrate --path db/migrations --database "postgres://root:secret@localhost:5432/er_app?sslmode=disable" --verbose up
 
 migrateDown:
-	migrate --path db/migration --database "postgres://root:secret@localhost:5432/er_app?sslmode=disable" --verbose down
+	migrate --path db/migrations --database "postgres://root:secret@localhost:5432/er_app?sslmode=disable" --verbose down
 
 server:
 	go run main.go
